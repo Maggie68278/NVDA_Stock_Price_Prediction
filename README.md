@@ -2,11 +2,12 @@
 
 ---
 
-**Project Overview**
+# Project Overview
 
 This project provides a complete **ARIMA time series modeling pipeline** for forecasting financial return of NVIDIA stock. The objective is to model stock returns using time series regression, and evaluate whether the fitted model captures underlying patterns, and generates reliable forecasts.
 
 The workflow includes:
+EDA → Stationarity → Model Identification → Model Fitting → Diagnostics → Forecast Evaluation.
 
 - **Descriptive visualization**
 - **Stationarity testing (ADF)**
@@ -24,7 +25,7 @@ Tools
 - **Evaluation**: scikit-learn (MSE, MAE, RMSE)  
 - **Visualization**: matplotlib  
 
-## Results
+# Results
 
 **Model specification:** ARIMA(p, d, q) = (1, 0, 1)  
 
