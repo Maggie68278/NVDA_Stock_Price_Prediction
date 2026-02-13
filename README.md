@@ -28,12 +28,10 @@ EDA → Stationarity → Model Identification → Model Fitting → Diagnostics 
 ## Results
 
 **Model specification:** ARIMA(p, d, q) = (1, 0, 1)  
-
 **Residual diagnostics:**  
 - Shapiro-Wilk Test/ Histogram/ Q-Q plot: Residuals normally distributed
 - Ljung–Box test: no autocorrelation  
 - Residual ACF: no systematic spikes  
-
 **Forecast performance:**  
 - RMSE: 0.1326
 - MAE: 0.1086 
