@@ -1,12 +1,12 @@
-**ARIMA Time Series Forecasting Project**
+# ARIMA Time Series Forecasting Project
 
 ---
 
-# Project Overview
+## Project Overview
 
 This project provides a complete **ARIMA time series modeling pipeline** for forecasting financial return of NVIDIA stock. The objective is to model stock returns using time series regression, and evaluate whether the fitted model captures underlying patterns, and generates reliable forecasts.
 
-The workflow includes:
+### The workflow includes:
 EDA → Stationarity → Model Identification → Model Fitting → Diagnostics → Forecast Evaluation.
 
 - **Descriptive visualization**
@@ -17,7 +17,7 @@ EDA → Stationarity → Model Identification → Model Fitting → Diagnostics 
 - **Residual diagnostics (Autocorrelation, Normality, Homoscedasticity)**
 - **Forecast evaluation using MSE, MAE, and RMSE**
 
-Tools
+### Tools
 - **Data**: yfinance  
 - **Analysis**: pandas, numpy  
 - **Modeling**: statsmodels (ARIMA), pmdarima (auto_arima)  
@@ -25,7 +25,7 @@ Tools
 - **Evaluation**: scikit-learn (MSE, MAE, RMSE)  
 - **Visualization**: matplotlib  
 
-# Results
+## Results
 
 **Model specification:** ARIMA(p, d, q) = (1, 0, 1)  
 
