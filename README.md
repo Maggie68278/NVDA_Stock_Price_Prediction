@@ -11,9 +11,9 @@ The workflow includes:
 - **Descriptive visualization**
 - **Stationarity testing (ADF)**
 - **Train–test split (80% / 20%)**
-- **Model identification (ACF/PACF)**
-- **ARIMA model fitting**
-- **Residual diagnostics**
+- **Model identification (manual lag selection ACF/PACF)**
+- **ARIMA model fitting (ARIMA(p,d,q))**
+- **Residual diagnostics (Autocorrelation, Normality, Homoscedasticity)**
 - **Forecast evaluation using MSE, MAE, and RMSE**
 
 Tools
@@ -23,6 +23,21 @@ Tools
 - **Diagnostics**: statsmodels, scipy  
 - **Evaluation**: scikit-learn (MSE, MAE, RMSE)  
 - **Visualization**: matplotlib  
+
+## Results
+
+**Model specification:** ARIMA(p, d, q) = (1, 0, 1)  
+
+**Residual diagnostics:**  
+- Shapiro-Wilk Test/ Histogram/ Q-Q plot: Residuals normally distributed
+- Ljung–Box test: no autocorrelation  
+- Residual ACF: no systematic spikes  
+
+**Forecast performance:**  
+- RMSE: 0.1326
+- MAE: 0.1086 
+- MSE: 0.0176
+
 
 ---
 
