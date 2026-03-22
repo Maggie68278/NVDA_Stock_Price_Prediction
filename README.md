@@ -1,6 +1,6 @@
 ## Project Overview
 
-This project develops a **dual modeling framework** to forecast NVIDIA stock returns using both:
+This project forecast NVIDIA stock returns using both:
 
 - **ARIMA (statistical time series modeling)**
 - **Decision Tree (machine learning regression)**
@@ -14,7 +14,7 @@ EDA → Stationarity → Feature Engineering → Model Training → Diagnostics 
 
 ## 1. ARIMA Time Series Model
 
-This component implements a complete **ARIMA pipeline** to model time-dependent structure in stock returns.
+This component implements a complete pipeline to model time-dependent structure in stock returns.
 
 ### Workflow
 EDA → Stationarity → Model Identification → Model Fitting → Diagnostics → Forecast Evaluation
@@ -52,7 +52,7 @@ EDA → Stationarity → Model Identification → Model Fitting → Diagnostics 
 
 ## 2. Machine Learning Model: Decision Tree
 
-This component applies a **Decision Tree Regressor** to capture non-linear relationships using engineered features.
+This component applies **Decision Tree Regressor** to capture non-linear relationships.
 
 ### Workflow
 EDA → Feature Engineering → Model Training → Evaluation
