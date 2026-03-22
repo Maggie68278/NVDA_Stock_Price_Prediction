@@ -1,8 +1,13 @@
+
+## Project Overview (ARIMA + ML)
+
+This project combines **ARIMA time series modeling** and **machine learning regression** to forecast NVIDIA stock behavior.
+
+### The workflow includes:
+EDA → Stationarity → Feature Engineering → Model Training → Diagnostics → Evaluation
+
+
 # ARIMA Time Series Forecasting Project
-
----
-
-## Project Overview
 
 This project provides a complete **ARIMA time series modeling pipeline** for forecasting financial return of NVIDIA stock. The objective is to model stock returns using time series regression, and evaluate whether the fitted model captures underlying patterns, and generates reliable forecasts.
 
@@ -48,11 +53,37 @@ Next Steps
 - Compare with machine learning approaches  
 
 
+## Machine Learning: Decision Tree Regression
 
+This project implements a **Decision Tree Regressor** to predict NVIDIA stock prices using supervised learning.
 
+### The workflow includes:
+EDA → Feature Engineering → Model Training → Evaluation
 
+- **Descriptive visualization**
+- **Feature engineering (lag variables)**
+- **Train–test split (80% / 20%)**
+- **Decision Tree model fitting**
+- **Prediction on test data**
+- **Evaluation using MSE, MAE, and RMSE**
 
+### Tools
+- **Data**: yfinance  
+- **Analysis**: pandas, numpy  
+- **Modeling**: scikit-learn (DecisionTreeRegressor)  
+- **Evaluation**: scikit-learn (MSE, MAE, RMSE)  
+- **Visualization**: matplotlib  
 
+## Results
+
+**Model:** Decision Tree Regressor  
+
+**Performance:**  
+- RMSE: 0.0326  
+- MAE: 0.0175  
+- MSE: 0.0011  
+
+---
 
 
 
